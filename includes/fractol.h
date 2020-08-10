@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mcrissy <mcrissy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/08/01 02:16:02 by mcrissy           #+#    #+#             */
+/*   Created: 2020/08/06 02:16:02 by mcrissy           #+#    #+#             */
 /*   Updated: 2020/08/07 17:40:35 by student          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
-# include "../Libft/libft.h"
+# include "../libft/libft.h"
 # include "mlx.h"
 # include "math.h"
 # include "pthread.h"

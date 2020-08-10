@@ -53,7 +53,7 @@ int		cmp_fractal(char *str, t_fractol *f)
 		f->fractal = CM;
 	else
 	{
-		ft_putendl("Type name: mandelbrot");
+		ft_putendl("Type name: mandelbrot"); 
 		ft_putendl("julia");
 		ft_putendl("celtic_mandelbrot");
 		ft_putendl("heart");
