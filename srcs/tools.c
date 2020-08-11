@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tools.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tglandai <tglandai@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mcrissy <mcrissy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/13 17:06:07 by tglandai          #+#    #+#             */
-/*   Updated: 2020/08/10 15:01:35 by student          ###   ########.fr       */
+/*   Created: 2020/08/10 20:52:56 by mcrissy           #+#    #+#             */
+/*   Updated: 2020/08/10 20:52:56 by mcrissy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int		ft_close(void)
 
 void	put_pxl_to_pic(t_fractol *f, int x, int y, int color)
 {
-	if (f->x2 < HEIGHT && f->y < WIDTH)
+	if (f->x2 < WIDTH && f->y < HEIGHT)
 	{
 		color = mlx_get_color_value(f->mlx, color);
 		ft_memcpy(f->pic_ptr + 4 * WIDTH * y + x * 4,

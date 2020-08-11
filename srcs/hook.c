@@ -16,8 +16,8 @@ int		julia_mouse_move(int x, int y, t_fractol *f)
 {
 	if (f->fractal == JUL && f->julia_mouse == 1)
 	{
-		f->c_re = x;
-		f->c_i = 2 * y - 900;
+		f->c_re = x * 3;
+		f->c_i = 2 * y - HEIGHT;
 		create_fractal(f);
 	}
 	return (0);
